@@ -1,26 +1,25 @@
+import 'package:compileprojects/date_cubit.dart';
+import 'package:compileprojects/gender_cubit.dart';
+import 'package:compileprojects/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lcyp/cubit/date_bloc.dart';
-import 'package:lcyp/cubit/gender_bloc.dart';
-import 'package:lcyp/page/lcyp_page.dart';
-
 void main(List<String> args) {
-  runApp(Main());
+  runApp(MyApp());
 }
-class Main extends StatelessWidget {
-  const Main({ Key? key }) : super(key: key);
+class MyApp extends StatelessWidget {
+const MyApp({ Key? key }) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return MultiBlocProvider(
       providers: [
-        BlocProvider(create: (context) => GenderBloc()),
-        BlocProvider(create: (context)=> DateBloc()),
+        BlocProvider(create: (context)=> GenderCubit()),
+        BlocProvider(create: (context)=> DateCubit()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: LcypPage(),
         theme: ThemeData(scaffoldBackgroundColor: Colors.white),
+        home: const HomePage(),
       ),
     );
   }
