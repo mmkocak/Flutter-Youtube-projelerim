@@ -1,16 +1,11 @@
-# lcyp
+# Profil Tamamlama sayfası Flutter + Bloc Cubit
+Flutter + Bloc kullanılarak geliştirmiş olduğum sayfa
+## YouTube Videosuna Git
 
-A new Flutter project.
+[![YouTube'da İzle](https://img.shields.io/badge/YouTube'da%20İzle-FF0000?style=for-the-badge&logo=youtube&logoColor=white)]([https://youtu.be/tILxeAbxy1o](https://youtu.be/4qUoq8xgBmk))
+<br>
+<img src="screenshout/ss.png" alt="Ekran Görüntüsü" width="400"/>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
